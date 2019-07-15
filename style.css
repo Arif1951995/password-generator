@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    background-image: linear-gradient(to right, #0080ff, #ee0b44);
+}
+.container {
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+}
+.container > input {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    color: blueviolet;
+    outline: none;
+    border-radius: 10%;
+    border: 1px solid; 
+    
+}
+.len {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.len input {
+    width: 40px;
+    outline: none;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(243, 68, 14);
+    font-size: 0.6em
+}
+button {
+    outline: none;
+    border: none;
+    padding: 30px;
+     background-color: rgb(243, 163, 14);
+     font-size: 1.5em;
+     font-weight: bold;
+     color: white;
+     box-shadow: 0 6px rgb(255, 166, 0);
+     border-radius: 20px;
+     position: relative;
+     cursor: pointer;
+
+}
+button:hover {
+    top: 2px;
+    box-shadow: 0 4px rgb(255, 166, 0);
+
+}
+button:active {
+    box-shadow: none;
+    top: 4px;
+}
